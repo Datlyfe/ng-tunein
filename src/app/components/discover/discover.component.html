@@ -1,0 +1,14 @@
+ <!-- Header -->
+ <div class="header">
+  <h1 class="header__label">Discover</h1>
+</div>
+<!-- Navigation -->
+<nav class="genres">
+  <ul class="genres__list">
+    <li (click)="getGenre(genre.playlistId,genre.id)" *ngFor="let genre of genres" class="genres__list__item" [ngClass]="{active:genreId==genre.id}">
+      <span class="genres__list__link">{{genre.name}}</span>
+    </li>
+  </ul>
+</nav>
+<!-- feed -->
+<app-feed [id]="playlistId"></app-feed>

@@ -1,0 +1,17 @@
+<div class="header">
+    <h1 style="color:white;margin:0 auto;" class="header__label">Tune</h1>
+  </div>
+  <div *ngIf="song">
+    <div [ngStyle]="{'display':loading?'none':'flex'}" class="cue-song animated fadeIn">
+      <h3  class="playing-label">Now playing</h3>
+      <img [ngClass]="{'spin':playing}" (error)="loadingEnd()" (load)="loadingEnd()" [src]="song.album.cover_medium">
+      <span class="title">{{shorten(song.title,30)}}</span>
+      <span class="artist">{{song.artist.name}}</span>
+      <div class="player">
+      <i (click)="goPrev()" class="fa fa-step-backward"></i>
+      <i (click)="play()" *ngIf="!playing" class="fa fa-play-circle"></i>
+      <i (click)="pause()" *ngIf="playing" class="fa fa-pause"></i>
+      <i class="fa fa-step-forward"></i>
+    </div>
+    </div>
+  </div>

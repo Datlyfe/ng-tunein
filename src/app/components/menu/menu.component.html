@@ -1,0 +1,47 @@
+ <!-- Logo -->
+ <div class="logo">
+    <img class="logo__img" src="/assets/img/logo.png" alt="Logo">
+    <h1 class="logo__label">TuneIn</h1>
+  </div>
+  <!-- Explore -->
+  <nav class="nav"> 
+    <h3 class="nav__label">Explore music</h3>
+    <ul class="nav__list">
+      <a tag="li" routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" class="nav__list__item active-bar">
+        <i class="fa fa-binoculars" ></i>          
+        <span  class="nav__list__link">Discover</span>          
+      </a>
+       <a routerLink="/search" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" class="nav__list__item">
+        <i class="fa fa-search" ></i>          
+        <span class="nav__list__link">Search</span>          
+      </a>
+       <a routerLink="/likes" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" class="nav__list__item active-bar">
+        <i class="fa fa-heart" ></i>          
+        <span  class="nav__list__link">Your Tunes</span>          
+      </a>
+    </ul>
+  </nav>
+  <!-- Services -->
+   <nav class="nav services"> 
+    <h3 class="nav__label">Services</h3>
+    <ul class="nav__list">
+       <a routerLink="/404" class="nav__list__item active-bar">
+        <i class="fa fa-circle" ></i>          
+        <span  class="nav__list__link">Get The App</span>          
+      </a>
+     <a routerLink="/404" class="nav__list__item active-bar">
+        <i class="fa fa-star premium" ></i>          
+        <span  class="nav__list__link">Premium</span>          
+      </a>
+       <a routerLink="/404" class="nav__list__item active-bar">
+        <i class="fa fa-gear" ></i>          
+        <span  class="nav__list__link">Settings</span>          
+      </a>
+     
+    </ul>
+  </nav>
+  <!-- Watermark -->
+  <div class="watermark">
+    <!-- <img src="@/assets/img/sig.png" alt=""> -->
+    <a href="https://github.com/MoezBouaggad/ng-tunein" target="_blank" class="watermark__label">Github<i class="fa fa-github watermark__icon"></i></a>
+  </div>
