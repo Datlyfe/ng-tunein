@@ -24,7 +24,7 @@
     "font-awesome": "4.7",
     "materialize-css": "^0.100.2",
     "rxjs": "^6.0.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.29"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.6.8",
