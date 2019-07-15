@@ -22,7 +22,7 @@
     "@angular/router": "^6.0.3",
     "core-js": "^2.5.4",
     "font-awesome": "4.7",
-    "materialize-css": "^0.100.2",
+    "materialize-css": "^1.0.0",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.29"
   },
