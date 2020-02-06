@@ -3,6 +3,8 @@ This is a javascript project developed with Angular 6.
 
 Simple and elegant music discovery app
 
+⭐️ this repo if you like it.
+
 ## Getting Started 🚀
 
 - Clone the repo
@@ -15,17 +17,6 @@ Simple and elegant music discovery app
 ### https://ng-tunein.netlify.com/
 <img src="./app.png" >
 
-
- 
-## Support me 👊
-
-⭐ this repo if you like it.
-
-Buy me a cup of coffee ☕️:
-
-<a href="https://www.buymeacoffee.com/bq6EgoCp0" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-Thank you in advance 👍
 
 ## Contact me 📧
 #### Email : mrbouaggadmoez@gmail.com
